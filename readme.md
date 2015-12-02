@@ -2,7 +2,7 @@
 
 Simple captcha for koa, fork from node-captcha
 
-npm i --save koa-captcha
+    npm i --save koa-captcha
 
 #Use
 
