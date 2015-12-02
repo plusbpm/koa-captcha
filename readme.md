@@ -2,6 +2,8 @@
 
 Simple captcha for koa, fork from node-captcha
 
+npm i --save koa-captcha
+
 #Use
 
     var captcha = require('koa-captcha'),
