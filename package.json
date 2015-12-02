@@ -1,0 +1,26 @@
+{
+  "name": "koa-captcha",
+  "version": "1.0.0",
+  "description": "Simple captcha for koa, fork from node-captcha",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otarim/koa-captcha.git"
+  },
+  "keywords": [
+    "captcha",
+    "koa"
+  ],
+  "author": "otarim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/otarim/koa-captcha/issues"
+  },
+  "homepage": "https://github.com/otarim/koa-captcha#readme",
+  "dependencies": {
+    "canvas": "^1.3.4"
+  }
+}
