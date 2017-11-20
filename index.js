@@ -37,7 +37,7 @@ module.exports = function(params) {
         var text = params.text || Math.random().toString(32).substr(2, params.codeLength)
 
         for (i = 0; i < text.length; i++) {
-            ctx.setTransform(Math.random() * 0.5 + 1, Math.random() * 0.4, Math.random() * 0.4, Math.random() * 0.5 + 1, (params.canvasWidth / params.codeLength) * i + params.fontSize, params.canvasHeight - (params.canvasHeight - params.fontSize * 12) / 2)
+            ctx.setTransform(Math.random() * 0.5 + 1, Math.random() * 0.4, Math.random() * 0.4, Math.random() * 0.5 + 1, (params.canvasWidth / params.codeLength) * i + params.fontSize, params.canvasHeight - (params.canvasHeight / 2))
             ctx.fillText(text.charAt(i), 0, 0)
         }
 
